@@ -1,0 +1,26 @@
+
+@import 'tale/variables';
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans');
+$sans-serif: 'Open Sans','Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+
+@import 'tale/base';
+@import 'tale/code';
+@import 'tale/post';
+@import 'tale/syntax';
+@import 'tale/layout';
+@import 'tale/pagination';
+@import 'tale/catalogue';
+
+$post-title-size: 3rem;
+
+.post{
+    &-title {
+        font-size: $post-title-size;
+    }
+
+    &-line {
+        width: $post-title-size;
+        border-top: $post-title-size/9 solid $default-shade;
+    }
+}
