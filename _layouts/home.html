@@ -19,6 +19,7 @@ layout: default
   {% endfor %}
 </div>
 
+{% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
@@ -29,3 +30,4 @@ layout: default
 
   <span>{{ paginator.page }}</span>
 </div>
+{% endif %}

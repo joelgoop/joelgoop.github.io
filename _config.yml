@@ -6,7 +6,8 @@ url:            "https://joelgoop.github.io"
 # Author
 author:
   name:         Joel Goop
-  email:        joel@goop.nu
+  email:        contact@goop.nu
+  github:       joelgoop
 
 # Build settings
 markdown:       kramdown
@@ -19,7 +20,11 @@ sass:
 # Gems
 plugins:
   - jekyll-paginate
+  - jekyll-font-awesome-sass
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
 paginate:       5
+
+font-awesome:
+  assets: true
