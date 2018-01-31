@@ -1,0 +1,4 @@
+[submodule "_sass/font-awesome-sass"]
+	path = _sass/font-awesome-sass
+	url = https://github.com/FortAwesome/font-awesome-sass.git
+	branch = master
